@@ -1,7 +1,13 @@
-import { listenAndServe } from "http";
+// import lib
 import uuid from "https://deno.land/std/uuid/mod.ts";
 
+// import external lib, but use import map
+import { listenAndServe } from "http";
+
+// import external 3rd party lib
 // import { getUsers } from "https://kryz.dev/deno/users.js";
+
+// import local module
 import { getUsers } from "./lib/users.ts";
 
 const host = "0.0.0.0";

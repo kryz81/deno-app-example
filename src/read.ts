@@ -2,7 +2,7 @@ const { readFile, revokePermission } = Deno;
 
 (async () => {
   try {
-    const data = await readFile("simple_server.ts");
+    const data = await readFile("data.txt");
     revokePermission("read");
     console.log(data.length);
   } catch {
