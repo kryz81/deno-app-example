@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "colors/": "https://deno.land/std/colors/",
+    "http": "https://deno.land/std/http/server.ts"
+  }
+}
